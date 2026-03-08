@@ -1,0 +1,4 @@
+#!/bin/bash
+
+aws autoscaling describe-auto-scaling-groups \
+--query 'AutoScalingGroups[*].AutoScalingGroupName'
